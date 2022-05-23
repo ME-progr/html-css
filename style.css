@@ -1,8 +1,7 @@
-h1 {
-    background-color: rgb(255, 194, 115);
+.heading {
+    background-color: rgb(255, 186, 161);
 }
 
-h2, h3, h4 {
-    background-color: darkgray;
+.body {
+    background-color: rgb(230, 230, 230);
 }
-
