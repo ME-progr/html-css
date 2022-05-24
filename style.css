@@ -1,7 +1,41 @@
-.heading {
-    background-color: rgb(255, 186, 161);
-}
+
 
 .body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(30,30,30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top_block {
+    margin: -1%;
+    padding: 2%;
+    background-color: rgb(255, 252, 220);
+}
+
+.middle_block {
+    margin: -1%;
+    padding: 2%;
+    color: black;
+    background-color: rgb(255, 252, 220);
+}
+
+.bottom_block {
+    color: aliceblue;
+}
+
+.img_logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.list {
+    list-style-type: circle;
+}
+
+a[href] {
+    text-decoration: none;
+    color: black;
+}
+
+.text {
+    text-align: justify;
 }
