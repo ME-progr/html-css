@@ -4,11 +4,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+/* Шапка */
+
 .header {
     margin: -1%;
     padding: 2%;
     background-color: rgb(255, 252, 220);
 }
+
+
+/* Контент */
 
 .middle_block {
     margin: -1%;
@@ -17,8 +23,20 @@
     background-color: rgb(255, 252, 220);
 }
 
+
+/* Подвал */
+
 .footer {
     color: rgb(255, 252, 220);
+}
+
+.footer_hdng {
+    color: rgb(255, 252, 220);
+}
+
+
+.link_up, .menu {
+    font-weight: 600;
 }
 
 .img_logo {
@@ -36,7 +54,7 @@ a[href] {
 }
 
 a[href]:hover {
-    color: blue;
+    color: rgba(53, 53, 255, 0.856);
 }
 
 .text {
@@ -45,6 +63,7 @@ a[href]:hover {
     line-height: 26px;
     color: #1F3F68;
 }
+
 
 .h1_all {
     font-size: 64px;
@@ -68,9 +87,6 @@ a[href]:hover {
     color: #1F3F68;
 }
 
-.footer_hdng {
-    color: rgb(255, 252, 220);
-}
 
 .input {
     border: 1px solid #356EAD;
@@ -90,12 +106,12 @@ a[href]:hover {
     text-transform: uppercase;
 }
 
+
 /* Список во вкладке Продукты */
 
 .pr_menu__list {
     list-style-type: none;
 }
-
 
 .pr_menu__link {
     display: block;
@@ -116,3 +132,5 @@ a[href]:hover {
     box-shadow: none;
     background-color: rgba(4, 0, 255, 0.199);
 }
+
+
