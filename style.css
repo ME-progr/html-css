@@ -30,13 +30,21 @@
     color: rgb(255, 252, 220);
 }
 
-.footer_hdng {
-    color: rgb(255, 252, 220);
+.menu {
+    font-weight: 600;
+    padding: 0.7em;
 }
 
-
-.link_up, .menu {
+.link_up {
+    display: block;
     font-weight: 600;
+    margin-left: 7%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 49, 49);
+    text-align: center;
+    line-height: 40px;
 }
 
 .img_logo {
@@ -85,6 +93,12 @@ a[href]:hover {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+}
+
+.footer_hdng {
+    color: rgb(255, 252, 220);
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
 }
 
 
